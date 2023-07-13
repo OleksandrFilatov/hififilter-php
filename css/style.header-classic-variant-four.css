@@ -1,0 +1,241 @@
+/* ----------------------------------------
+// Table of Contents:
+// - Components
+//   - .breadcrumb
+// - Header
+//   - .account-menu
+//   - .departments
+//   - .dropcart
+//   - .header
+//   - .indicator
+//   - .logo
+//   - .main-menu
+//   - .megamenu
+//   - .megamenu-links
+//   - .menu
+//   - .phone
+//   - .search
+//   - .suggestions
+//   - .topbar
+//   - .vehicle-picker
+// - Pages
+//   - .about
+// - Blocks
+//   - .block-header
+//   - .block-space
+// - Blog
+//   - .post-header
+// ---------------------------------------- */
+/* ----------------------------------------
+// Components
+// ---------------------------------------- */
+/*
+// .breadcrumb
+*/
+.breadcrumb__spaceship-safe-area {
+  display: none;
+}
+
+/* ----------------------------------------
+// Header
+// ---------------------------------------- */
+/*
+// .account-menu
+*/
+.account-menu {
+  width: 280px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5px;
+  color: #262626;
+}
+
+.account-menu__form {
+  padding: 0 30px 32px;
+}
+
+.account-menu__form-title {
+  text-align: center;
+  padding: 32px 0 26px;
+  font-weight: 500;
+}
+
+.account-menu__form-button {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.account-menu__form-button .btn {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.account-menu__form-link {
+  font-size: 14px;
+  text-align: center;
+}
+
+.account-menu__form-link a {
+  color: #6c757d;
+  -webkit-transition: color .1s;
+  transition: color .1s;
+}
+
+.account-menu__form-link a:hover {
+  color: inherit;
+}
+
+.account-menu__form-forgot {
+  position: relative;
+}
+
+.account-menu__form-forgot-link {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  border-radius: 2px;
+  font-size: 12px;
+  background: fff;
+  color: #6c757d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 7px;
+  -webkit-transition: background .1s, color .1s;
+  transition: background .1s, color .1s;
+}
+
+[dir=ltr] .account-menu__form-forgot-link {
+  right: 5px;
+}
+
+[dir=rtl] .account-menu__form-forgot-link {
+  left: 5px;
+}
+
+.account-menu__form-forgot-link:hover {
+  background: #333;
+  color: #fff;
+}
+
+.account-menu__form-forgot-link:active {
+  background: #4d4d4d;
+  color: #fff;
+}
+
+.account-menu__divider {
+  height: 1px;
+  background: #ebebeb;
+}
+
+.account-menu__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 14px 20px;
+  color: inherit;
+}
+
+.account-menu__user:hover {
+  color: inherit;
+  background: #f2f2f2;
+}
+
+.account-menu__user-avatar {
+  width: 44px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+[dir=ltr] .account-menu__user-avatar {
+  margin-right: 14px;
+}
+
+[dir=rtl] .account-menu__user-avatar {
+  margin-left: 14px;
+}
+
+.account-menu__user-avatar img {
+  border-radius: 100%;
+  max-width: 100%;
+}
+
+.account-menu__user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.account-menu__user-name {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.account-menu__user-email {
+  font-size: 14px;
+  line-height: 18px;
+  color: #6c757d;
+  margin-top: 1px;
+}
+
+.account-menu__links {
+  list-style: none;
+  padding: 12px 0;
+  margin: 0;
+}
+
+.account-menu__links a {
+  display: block;
+  color: inherit;
+  font-size: 15px;
+  padding: 5px 20px;
+  font-weight: 500;
+}
+
+.account-menu__links a:hover {
+  background: #f2f2f2;
+}
+
+/*
+// .departments
+*/
+.departments {
+  position: relative;
+}
+
+.departments__button {
+  position: relative;
+  fill: currentColor;
+  border: none;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  -webkit-transition: background-color .2s, color .2s;
+  transition: background-color .2s, color .2s;
+}
+
+[dir=ltr] .departments__button {
+  padding-left: 35px;
+  padding-right: 11px;
+  text-align: left;
+}
+
+[dir=rtl] .departments__button {
+  padding-right: 35px;
+  paddin
